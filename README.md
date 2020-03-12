@@ -1,4 +1,4 @@
-# Deep Global Generalized Gaussian Networks
+# What Deep CNNs Benefit from Global Covariance Pooling: An Optimization Perspective
 This is an code implementation of CVPR20 paper ([What Deep CNNs Benefit from Global Covariance Pooling: An Optimization Perspective]()), created by [Qilong Wang](https://csqlwang.github.io/homepage/) and Li Zhang.
 
 ## Introduction
@@ -29,7 +29,7 @@ performance while significantly reducing number of training epochs), stronger ro
 
 3.`conda install pillow==6.1`
 
-## Usage
+## Training models
 
 1. Training models (except ShuffleNetV2) on ImageNet: In floder `src` , run ` sh ./scripts/train/train.sh `
 
@@ -37,7 +37,7 @@ performance while significantly reducing number of training epochs), stronger ro
 
 3. Testing models on ImageNet:  In floder `src` , run ` sh ./scripts/val/val.sh `
 
-*Note that you need to modify  the `dataset path` or `model name` in `train.sh` or `val.sh` for fitting your configurations, and descriptions on all parameters can be found in file `./scripts/readme.txt`.
+*Note that you need to modify  the `dataset path` or `model name` in `train.sh` or `val.sh` for fitting your configurations, and descriptions on all parameters can be found in file `./src/scripts/readme.txt`.
 
 ## Main Results and Models 
 
@@ -111,8 +111,20 @@ performance while significantly reducing number of training epochs), stronger ro
 
 2. Testing on ImageNet: In floder `src` , run ` sh ./scripts/val/val_download.sh` 
 
+## Test the LandScape
+
+1. Test MobileNetV2 models' LandScape: In the floder `./landscape/MobileNetV2` , run `sh ./scripts/train.sh`
+
+2. Test ResNet models' LandScape: In the floder `./landscape/ResNet` , run `sh ./scripts/train.sh`
+
+*Note that you need to modify  the `dataset path` or `model name` in `train.sh` for fitting your configurations, and descriptions on all parameters can be found in file `./landscape/readme.txt`.
+
+## ImageNet-C && ImageNet-P
+
+You can download the test code and the dateset from  [https://github.com/hendrycks/robustness](https://github.com/hendrycks/robustness)
+
 ## Acknowledgments
-We would like to thank the team behind the [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV) for providing a nice code, and our code is based on it.
+We would like to thank the team behind the [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV) and [ImageNet-C & ImageNet-P](https://github.com/hendrycks/robustness)for providing a nice code, and our code is based on it.
 
 ## Contact
 If you have any questions or suggestions, please feel free to contact us: qlwang@tju.edu.cn; li_zhang@tju.edu.cn.
