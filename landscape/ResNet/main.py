@@ -348,7 +348,7 @@ def train(train_loader, model,model_base,landscape_model, criterion, optimizer, 
                 else:
                     print("=> no temporary checkpoint found at '{}'".format(args.resume_temporary))
 
-            theta = (0.8 - 0.05) / 49
+            theta = (75 - 0.1) / 49
             y = model_base(images).detach_()
             y.requires_grad = True
  
@@ -360,7 +360,7 @@ def train(train_loader, model,model_base,landscape_model, criterion, optimizer, 
             print("Base : loss_landscape {0}".format(loss_landscape))
 
             for i in range(50):
-                deta = 0.05 + theta * i 
+                deta = 0.1 + theta * i 
                 input_y  = (y + deta * dy).detach_()
                 input_y.requires_grad = True
                 landscape_model.zero_grad()
