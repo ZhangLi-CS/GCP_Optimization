@@ -30,6 +30,18 @@ pytorch installation following [pytorch.org](https://pytorch.org/)
 
 *Note that you need to modify  the `dataset path` or `model name` in `train.sh` or `val.sh` for fitting your configurations, and descriptions on all parameters can be found in file `./src/scripts/readme.txt`.
 
+## Test the LandScape
+
+1. Test MobileNetV2 models' LandScape: In the floder `./landscape/MobileNetV2` , run `sh ./scripts/train.sh`
+
+2. Test ResNet models' LandScape: In the floder `./landscape/ResNet` , run `sh ./scripts/train.sh`
+
+*Note that you need to modify  the `dataset path` or `model name` in `train.sh` for fitting your configurations, and descriptions on all parameters can be found in file `./landscape/readme.txt`.
+
+## ImageNet-C && ImageNet-P
+
+You can download the test code and the dateset from  [https://github.com/hendrycks/robustness](https://github.com/hendrycks/robustness)
+
 ## Main Results and Models 
 
 ### MobileNetV2
@@ -101,18 +113,6 @@ pytorch installation following [pytorch.org](https://pytorch.org/)
 1. Download the pre-trained models.
 
 2. Testing on ImageNet: In floder `src` , run ` sh ./scripts/val/val_download.sh` 
-
-## Test the LandScape
-
-1. Test MobileNetV2 models' LandScape: In the floder `./landscape/MobileNetV2` , run `sh ./scripts/train.sh`
-
-2. Test ResNet models' LandScape: In the floder `./landscape/ResNet` , run `sh ./scripts/train.sh`
-
-*Note that you need to modify  the `dataset path` or `model name` in `train.sh` for fitting your configurations, and descriptions on all parameters can be found in file `./landscape/readme.txt`.
-
-## ImageNet-C && ImageNet-P
-
-You can download the test code and the dateset from  [https://github.com/hendrycks/robustness](https://github.com/hendrycks/robustness)
 
 ## Acknowledgments
 We would like to thank the team behind the [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV) and [ImageNet-C & ImageNet-P](https://github.com/hendrycks/robustness)for providing a nice code, and our code is based on it.
