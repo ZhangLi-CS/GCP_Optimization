@@ -41,6 +41,105 @@ pytorch installation following [pytorch.org](https://pytorch.org/)
 ## ImageNet-C && ImageNet-P
 
 You can download the test code and the dateset from  [https://github.com/hendrycks/robustness](https://github.com/hendrycks/robustness)
+### Our result on ImageNet-C and ImageNet-P 
+
+<table>
+  <tr>
+    <th rowspan="2">Method</th>
+    <th colspan="2">IMAGENET-C</th>
+    <th colspan="2">IMAGENET-P</th>
+  </tr>
+  <tr>
+    <th>mCE</th>
+    <th>Relative mCE</th>
+    <th>mFP</th>
+    <th>mT5D</th>
+  </tr>
+  <tr>
+    <td align=left>MobileNetV2_GAP_LRnorm</td>
+    <td>87.1</td>
+    <td>114.9</td>
+    <td>79.8</td>
+    <td>96.5</td> 
+  </tr>
+  <tr>
+    <td align=left>MobileNetV2_GCP_LRnorm</td>
+    <td>81.7</td>
+    <td>110.6</td>
+    <td>64.3</td>
+    <td>87.6</td> 
+  </tr>
+  <tr>
+    <td align=left>ShuffleNetV2_GAP_LRnorm</td>
+    <td>92.7</td>
+    <td>126.7</td>
+    <td>94.7</td>
+    <td>108.2</td> 
+  </tr>
+  <tr>
+    <td align=left>ShuffleNetV2_GCP_LRnorm</td>
+    <td>85.2</td>
+    <td>112.6</td>
+    <td>75.2</td>
+    <td>95.5</td> 
+  </tr>
+  <tr>
+    <td align=left>ResNet18_GAP_LRnorm</td>
+    <td>84.7</td>
+    <td>103.9</td>
+    <td>72.8</td>
+    <td>87.0</td> 
+  </tr>
+  <tr>
+    <td align=left>ResNet18_GCP_LRnorm</td>
+    <td>76.3</td>
+    <td>101.3</td>
+    <td>53.2</td>
+    <td>77.1</td> 
+  </tr>
+  <tr>
+    <td align=left>ResNet34_GAP_LRnorm</td>
+    <td>77.9</td>
+    <td>98.7</td>
+    <td>61.7</td>
+    <td>79.5</td> 
+  </tr>
+  <tr>
+    <td align=left>ResNet34_GCP_LRnorm</td>
+    <td>72.4</td>
+    <td>96.9</td>
+    <td>47.7</td>
+    <td>72.4</td> 
+  </tr>
+  <tr>
+    <td align=left>ResNet50_GAP_LRnorm</td>
+    <td>76.7</td>
+    <td>105.0</td>
+    <td>58.0</td>
+    <td>78.3</td> 
+  </tr>
+  <tr>
+    <td align=left>ResNet50_GCP_LRnorm</td>
+    <td>70.7</td>
+    <td>97.9</td>
+    <td>47.5</td>
+    <td>74.6</td> 
+  </tr>
+  <tr>
+    <td align=left>ResNet101_GAP_LRnorm</td>
+    <td>70.3</td>
+    <td>93.7</td>
+    <td>52.6</td>
+    <td>73.9</td> 
+  </tr>
+  <tr>
+    <td align=left>ResNet101_GCP_LRnorm</td>
+    <td>65.5</td>
+    <td>89.1</td>
+    <td>42.1</td>
+    <td>68.3</td> 
+  </tr>
+</table>
 
 ## Main Results and Models 
 
