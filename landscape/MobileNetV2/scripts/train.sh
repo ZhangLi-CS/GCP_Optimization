@@ -16,8 +16,8 @@ python  -u main.py \
 	-p 1000 \
 	--epochs 400 \
 	--b 96 \
-	--resume /home/ubuntu/Projects/CodeSort/landscape/MobileNetV2/checkpoint.pth.tar \
-        --resume_temporary /home/ubuntu/Projects/CodeSort/landscape/MobileNetV2/temporary.pth.tar \
+	--resume checkpoint.pth.tar \
+        --resume_temporary temporary.pth.tar \
         /home/sdc1/dataset/ILSVRC2012/images  | tee ./logs/${jobname}/record-train-${now}.txt \
 
 
