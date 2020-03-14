@@ -46,7 +46,7 @@ You can download the test code and the dateset from  [https://github.com/hendryc
 
 ### MobileNetV2
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
-|:----:|:-----------:|:-----------:|:----------------:|:----------:|:---------:|
+|:----|:-----------:|:-----------:|:----------------:|:----------:|:---------:|
 |MobileNetV2_GAP_LRnorm|71.62|90.18|[MobileNetV2_GAP_LRnorm](https://pan.baidu.com/s/1L0DHZhyzp_h02WfZ1xq8Hw)|va25|[MobileNetV2_GAP_LRnorm](https://drive.google.com/open?id=1NTKVzjpuJtDEBBShgBPailKdhntUXwKs)|
 |MobileNetV2_GAP_LRfast|69.29|89.01|[MobileNetV2_GAP_LRfast](https://pan.baidu.com/s/1-vujnIa4RVxw4QVG2j5zZg)|f5n4|[MobileNetV2_GAP_LRfast](https://drive.google.com/open?id=1_OeoWrDUoSsRDFOA0-ZmIOzmWyelv9op)|
 |MobileNetV2_GAP_LRadju|71.27|90.08|[MobileNetV2_GAP_LRadju](https://pan.baidu.com/s/1ZKk_m-XQ7gwt6Z1kEDg_cw)|pai8|[MobileNetV2_GAP_LRadju](https://drive.google.com/open?id=177K9xr89XJ-Upax2NB3WNb9s6X1eWZA7)|
