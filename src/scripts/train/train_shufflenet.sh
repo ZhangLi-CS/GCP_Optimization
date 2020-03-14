@@ -7,7 +7,7 @@ if [ ! -d $log_dir ]; then
   mkdir -p $log_dir
 fi
 
-python  -u main.py \
+python  -u main_shufflenet.py \
 	-a shufflenet_v2_X1_0 \
 	--lr_mode LRnorm \
         -p 500 \
