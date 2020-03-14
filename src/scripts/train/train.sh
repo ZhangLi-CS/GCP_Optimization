@@ -10,7 +10,6 @@ fi
 python  -u main.py \
 	-a resnet50_mpncov \
 	--lr_mode LRnorm \
-	--wd 1e-4 \
         -p 500 \
         -j 32 \
         --resume checkpoint.pth.tar  \
