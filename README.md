@@ -44,66 +44,66 @@ performance while significantly reducing number of training epochs), stronger ro
 ### MobileNetV2
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
 |:----:|:-----------:|:-----------:|:----------------:|:----------:|:---------:|
-|MobileNetV2_GAP_LRnorm|71.62|90.18|[MobileNetV2_GAP_LRnorm](https://pan.baidu.com/s/1L0DHZhyzp_h02WfZ1xq8Hw)|va25|[MobileNetV2_GAP_LRnorm]()|
-|MobileNetV2_GAP_LRfast|69.29|89.01|[MobileNetV2_GAP_LRfast](https://pan.baidu.com/s/1-vujnIa4RVxw4QVG2j5zZg)|f5n4|[MobileNetV2_GAP_LRfast]()|
-|MobileNetV2_GAP_LRadju|71.27|90.08|[MobileNetV2_GAP_LRadju](https://pan.baidu.com/s/1ZKk_m-XQ7gwt6Z1kEDg_cw)|pai8|[MobileNetV2_GAP_LRadju]()|
-|MobileNetV2_GCP_LRnorm|74.39|91.86|[MobileNetV2_GCP_LRnorm](https://pan.baidu.com/s/1cdCpSV8Md6faxkUt7v-tDQ)|3r9q|[MobileNetV2_GCP_LRnorm]()|
-|MobileNetV2_GCP_LRfast|72.45|90.51|[MobileNetV2_GCP_LRfast](https://pan.baidu.com/s/1seBLgrtT9gnLgEJk80hbJA)|dq5w|[MobileNetV2_GCP_LRfast]()|
-|MobileNetV2_GCP_LRadju|73.97|91.53|[MobileNetV2_GCP_LRadju](https://pan.baidu.com/s/1HBacuaQ_8qbBaZFSJhn20Q)|i7y3|[MobileNetV2_GCP_LRadju]()|
-|MobileNetV2_GCP_LRnorm_128|73.28|91.26|[MobileNetV2_GCP_LRnorm_128](https://pan.baidu.com/s/1egJRYtCmMTNnz5uhy5KvGg)|cxhu|[MobileNetV2_GCP_LRnorm_128]()|
-|MobileNetV2_GCP_LRadju_128|72.58|90.87|[MobileNetV2_GCP_LRadju_128](https://pan.baidu.com/s/1WcOX5fKaGGDIcM6zTqL8fw)|3qdx|[MobileNetV2_GCP_LRadju_128]()|
+|MobileNetV2_GAP_LRnorm|71.62|90.18|[MobileNetV2_GAP_LRnorm](https://pan.baidu.com/s/1L0DHZhyzp_h02WfZ1xq8Hw)|va25|[MobileNetV2_GAP_LRnorm](https://drive.google.com/open?id=1NTKVzjpuJtDEBBShgBPailKdhntUXwKs)|
+|MobileNetV2_GAP_LRfast|69.29|89.01|[MobileNetV2_GAP_LRfast](https://pan.baidu.com/s/1-vujnIa4RVxw4QVG2j5zZg)|f5n4|[MobileNetV2_GAP_LRfast](https://drive.google.com/open?id=1_OeoWrDUoSsRDFOA0-ZmIOzmWyelv9op)|
+|MobileNetV2_GAP_LRadju|71.27|90.08|[MobileNetV2_GAP_LRadju](https://pan.baidu.com/s/1ZKk_m-XQ7gwt6Z1kEDg_cw)|pai8|[MobileNetV2_GAP_LRadju](https://drive.google.com/open?id=177K9xr89XJ-Upax2NB3WNb9s6X1eWZA7)|
+|MobileNetV2_GCP_LRnorm|74.39|91.86|[MobileNetV2_GCP_LRnorm](https://pan.baidu.com/s/1cdCpSV8Md6faxkUt7v-tDQ)|3r9q|[MobileNetV2_GCP_LRnorm](https://drive.google.com/open?id=18OpYWyBUGqSIiY4m0BqKsHNo22IuNB80)|
+|MobileNetV2_GCP_LRfast|72.45|90.51|[MobileNetV2_GCP_LRfast](https://pan.baidu.com/s/1seBLgrtT9gnLgEJk80hbJA)|dq5w|[MobileNetV2_GCP_LRfast](https://drive.google.com/open?id=1VHTcaoZU-IoeQlflbpPZJrmlP79vgMYF)|
+|MobileNetV2_GCP_LRadju|73.97|91.53|[MobileNetV2_GCP_LRadju](https://pan.baidu.com/s/1HBacuaQ_8qbBaZFSJhn20Q)|i7y3|[MobileNetV2_GCP_LRadju](https://drive.google.com/open?id=1b77p7IkLVMGKcvBb2p7tHgjr_I6tZjWh)|
+|MobileNetV2_GCP_LRnorm_128|73.28|91.26|[MobileNetV2_GCP_LRnorm_128](https://pan.baidu.com/s/1egJRYtCmMTNnz5uhy5KvGg)|cxhu|[MobileNetV2_GCP_LRnorm_128](https://drive.google.com/open?id=1D5ab0tRhIWvFsV9vR67-GQtnen71MFmB)|
+|MobileNetV2_GCP_LRadju_128|72.58|90.87|[MobileNetV2_GCP_LRadju_128](https://pan.baidu.com/s/1WcOX5fKaGGDIcM6zTqL8fw)|3qdx|[MobileNetV2_GCP_LRadju_128](https://drive.google.com/open?id=1ZSZBIgknAOX3oC0sx6gsfbmMEV0gFKJ4)|
 
 ### ShuffleNetV2
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
 |:----:|:-----------:|:-----------:|:----------------:|:----------:|:---------:|
-|ShuffleNetV2_GAP_LRnorm|67.96|87.84|[ShuffleNetV2_GAP_LRnorm](https://pan.baidu.com/s/1N43tW6kFwurjOn-YR9kukg)|rbew|[ShuffleNetV2_GAP_LRnorm]()|
-|ShuffleNetV2_GAP_LRfast|66.13|86.54|[ShuffleNetV2_GAP_LRfast](https://pan.baidu.com/s/1Ot7COL8DmJAhLVy51Y6kqg)|7y58|[ShuffleNetV2_GAP_LRfast]()|
-|ShuffleNetV2_GAP_LRadju|67.15|87.35|[ShuffleNetV2_GAP_LRadju](https://pan.baidu.com/s/1YKkFzLgMtcJ1Uw4nGoLqdg)|c7i8|[ShuffleNetV2_GAP_LRadju]()|
-|ShuffleNetV2_GCP_LRnorm|71.83|90.04|[ShuffleNetV2_GCP_LRnorm](https://pan.baidu.com/s/18_RE34Y0j7vxSXeyIY5dmA)|tr5u|[ShuffleNetV2_GCP_LRnorm]()|
-|ShuffleNetV2_GCP_LRfast|70.29|89.00|[ShuffleNetV2_GCP_LRfast](https://pan.baidu.com/s/1Eg4Gu3-qmqnzWxGjlJyfsA)|8qxx|[ShuffleNetV2_GCP_LRfast]()|
-|ShuffleNetV2_GCP_LRadju|71.17|89.74|[ShuffleNetV2_GCP_LRadju](https://pan.baidu.com/s/1rEPaU7Cyv8O1DUdHyFrW7Q)|nud1|[ShuffleNetV2_GCP_LRadju]()|
+|ShuffleNetV2_GAP_LRnorm|67.96|87.84|[ShuffleNetV2_GAP_LRnorm](https://pan.baidu.com/s/1N43tW6kFwurjOn-YR9kukg)|rbew|[ShuffleNetV2_GAP_LRnorm](https://drive.google.com/open?id=1MtG2wGDk-JweO1vzX_7LxBvJvF_jCo1r)|
+|ShuffleNetV2_GAP_LRfast|66.13|86.54|[ShuffleNetV2_GAP_LRfast](https://pan.baidu.com/s/1Ot7COL8DmJAhLVy51Y6kqg)|7y58|[ShuffleNetV2_GAP_LRfast](https://drive.google.com/open?id=1apUs5zfR_ZdJO00tJHZwYHi2dIv6zVpm)|
+|ShuffleNetV2_GAP_LRadju|67.15|87.35|[ShuffleNetV2_GAP_LRadju](https://pan.baidu.com/s/1YKkFzLgMtcJ1Uw4nGoLqdg)|c7i8|[ShuffleNetV2_GAP_LRadju](https://drive.google.com/open?id=1xnmnY7Dk6A5UaKSkS3xx71dz-kiMLrzw)|
+|ShuffleNetV2_GCP_LRnorm|71.83|90.04|[ShuffleNetV2_GCP_LRnorm](https://pan.baidu.com/s/18_RE34Y0j7vxSXeyIY5dmA)|tr5u|[ShuffleNetV2_GCP_LRnorm](https://drive.google.com/open?id=1fEOyjZrXdcGuXvj8l0XwYCdt5uQx6fAM)|
+|ShuffleNetV2_GCP_LRfast|70.29|89.00|[ShuffleNetV2_GCP_LRfast](https://pan.baidu.com/s/1Eg4Gu3-qmqnzWxGjlJyfsA)|8qxx|[ShuffleNetV2_GCP_LRfast](https://drive.google.com/open?id=1-r46jSo8qooPeQdymyToaL3pQNTmOHtr)|
+|ShuffleNetV2_GCP_LRadju|71.17|89.74|[ShuffleNetV2_GCP_LRadju](https://pan.baidu.com/s/1rEPaU7Cyv8O1DUdHyFrW7Q)|nud1|[ShuffleNetV2_GCP_LRadju](https://drive.google.com/open?id=1P-RlJat6XL7BxD5oCDz_ifKDq7NNRYqj)|
 
 ### ResNet18
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
 |:----:|:-----------:|:-----------:|:----------------:|:----------:|:---------:|
-|ResNet18_GAP_LRnorm|70.47|89.59|[ResNet18_GAP_LRnorm](https://pan.baidu.com/s/1PYlOx5Ap8iy0JPz1nURZhQ)|z7ab|[ResNet18_GAP_LRnorm]()|
-|ResNet18_GAP_LRfast|66.02|86.69|[ResNet18_GAP_LRfast](https://pan.baidu.com/s/1Wam0yraiZoeAHqfScGcDXA)|78uw|[ResNet18_GAP_LRfast]()|
-|ResNet18_GAP_LRadju|69.62|89.00|[ResNet18_GAP_LRadju](https://pan.baidu.com/s/1sBWTZodgD27V2Tr6hoIYnQ)|29cn|[ResNet18_GAP_LRadju]()|
-|ResNet18_GCP_LRnorm|75.48|92.23|[ResNet18_GCP_LRnorm](https://pan.baidu.com/s/1Nr6FH8PUbY60oAOi41pYWQ)|eje8|[ResNet18_GCP_LRnorm]()|
-|ResNet18_GCP_LRfast|72.02|89.97|[ResNet18_GCP_LRfast](https://pan.baidu.com/s/1PkbvOYPtPGQoaXt5CVeJWA)|k6f6|[ResNet18_GCP_LRfast]()|
-|ResNet18_GCP_LRadju|74.86|91.81|[ResNet18_GCP_LRadju](https://pan.baidu.com/s/1LAX4EKZW2SXx_TiOOYQNmQ)|tci6|[ResNet18_GCP_LRadju]()|
+|ResNet18_GAP_LRnorm|70.47|89.59|[ResNet18_GAP_LRnorm](https://pan.baidu.com/s/1PYlOx5Ap8iy0JPz1nURZhQ)|z7ab|[ResNet18_GAP_LRnorm](https://drive.google.com/open?id=1hK56OuyrXiEIrp7D3CroaGM2L2-FSTl0)|
+|ResNet18_GAP_LRfast|66.02|86.69|[ResNet18_GAP_LRfast](https://pan.baidu.com/s/1Wam0yraiZoeAHqfScGcDXA)|78uw|[ResNet18_GAP_LRfast](https://drive.google.com/open?id=1870WX_VaHZd5qgcyUXaqtJ-EFpqx9uX4)|
+|ResNet18_GAP_LRadju|69.62|89.00|[ResNet18_GAP_LRadju](https://pan.baidu.com/s/1sBWTZodgD27V2Tr6hoIYnQ)|29cn|[ResNet18_GAP_LRadju](https://drive.google.com/open?id=1ttvh_nt6JURkkLHKhVr9r-VwcwXd7cfS)|
+|ResNet18_GCP_LRnorm|75.48|92.23|[ResNet18_GCP_LRnorm](https://pan.baidu.com/s/1Nr6FH8PUbY60oAOi41pYWQ)|eje8|[ResNet18_GCP_LRnorm](https://drive.google.com/open?id=1D4ZmTHJ5dmTTpdL2IA3UJUIm54cF45na)|
+|ResNet18_GCP_LRfast|72.02|89.97|[ResNet18_GCP_LRfast](https://pan.baidu.com/s/1PkbvOYPtPGQoaXt5CVeJWA)|k6f6|[ResNet18_GCP_LRfast](https://drive.google.com/open?id=1PkMvpWj6FH1d4RxgNKkqoalt3mqRo9J8)|
+|ResNet18_GCP_LRadju|74.86|91.81|[ResNet18_GCP_LRadju](https://pan.baidu.com/s/1LAX4EKZW2SXx_TiOOYQNmQ)|tci6|[ResNet18_GCP_LRadju](https://drive.google.com/open?id=1BnO-zTz_L3zqO9bW4c-YE9Ao0d2qDZuD)|
 
 ### ResNet34
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
 |:----:|:-----------:|:-----------:|:----------------:|:----------:|:---------:|
-|ResNet34_GAP_LRnorm|74.19|91.60|[ResNet34_GAP_LRnorm](https://pan.baidu.com/s/17hwLgIaRtsnziS3qj83MwQ)|1yp6|[ResNet34_GAP_LRnorm]()|
-|ResNet34_GAP_LRfast|69.88|89.25|[ResNet34_GAP_LRfast](https://pan.baidu.com/s/1cm40DbKD9BtJGbo4vEH3_g)|nmni|[ResNet34_GAP_LRfast]()|
-|ResNet34_GAP_LRadju|73.13|91.14|[ResNet34_GAP_LRadju](https://pan.baidu.com/s/1gAbzSqi_1_1FMJJ9t2c89w)|5eyk|[ResNet34_GAP_LRadju]()|
-|ResNet34_GCP_LRnorm|77.11|93.33|[ResNet34_GCP_LRnorm](https://pan.baidu.com/s/1T4lKenLGKbrHZrt3cOtDPg)|bn2d|[ResNet34_GCP_LRnorm]()|
-|ResNet34_GCP_LRfast|73.88|91.42|[ResNet34_GCP_LRfast](https://pan.baidu.com/s/1EMGIUc60SwWDxyVyMWO1XQ)|wmky|[ResNet34_GCP_LRfast]()|
-|ResNet34_GCP_LRadju|76.81|93.04|[ResNet34_GCP_LRadju](https://pan.baidu.com/s/1T2_M2q-WJ8klUomxA0olcA)|4w21|[ResNet34_GCP_LRadju]()|
+|ResNet34_GAP_LRnorm|74.19|91.60|[ResNet34_GAP_LRnorm](https://pan.baidu.com/s/17hwLgIaRtsnziS3qj83MwQ)|1yp6|[ResNet34_GAP_LRnorm](https://drive.google.com/open?id=1V-4n8sxtCmp5iiWws1kBhYXFXsG6fVrX)|
+|ResNet34_GAP_LRfast|69.88|89.25|[ResNet34_GAP_LRfast](https://pan.baidu.com/s/1cm40DbKD9BtJGbo4vEH3_g)|nmni|[ResNet34_GAP_LRfast](https://drive.google.com/open?id=1c5RxEeipeWt07OlOT1BYWRJhf3XcEDA9)|
+|ResNet34_GAP_LRadju|73.13|91.14|[ResNet34_GAP_LRadju](https://pan.baidu.com/s/1gAbzSqi_1_1FMJJ9t2c89w)|5eyk|[ResNet34_GAP_LRadju](https://drive.google.com/open?id=1-NgzG9zN5nY0jJpV07yKtfKIJ0CpQCkb)|
+|ResNet34_GCP_LRnorm|77.11|93.33|[ResNet34_GCP_LRnorm](https://pan.baidu.com/s/1T4lKenLGKbrHZrt3cOtDPg)|bn2d|[ResNet34_GCP_LRnorm](https://drive.google.com/open?id=15k8roxdmpq8iwasi6Piysh8HK4vlsG_m)|
+|ResNet34_GCP_LRfast|73.88|91.42|[ResNet34_GCP_LRfast](https://pan.baidu.com/s/1EMGIUc60SwWDxyVyMWO1XQ)|wmky|[ResNet34_GCP_LRfast](https://drive.google.com/open?id=1I145XHsrAjfuseIdCqesxK825-FrA6Zj)|
+|ResNet34_GCP_LRadju|76.81|93.04|[ResNet34_GCP_LRadju](https://pan.baidu.com/s/1T2_M2q-WJ8klUomxA0olcA)|4w21|[ResNet34_GCP_LRadju](https://drive.google.com/open?id=1C3m6uicOuYoWiqRrt8ZUjgloa6iSLw-Y)|
 
 ### ResNet50
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
 |:----:|:-----------:|:-----------:|:----------------:|:----------:|:---------:|
-|ResNet50_GAP_LRnorm|76.02|92.97|[ResNet50_GAP_LRnorm](https://pan.baidu.com/s/1iaDm9ZNiyeANfe6Zzi-PFg)|3r9p|[ResNet50_GAP_LRnorm]()|
-|ResNet50_GAP_LRfast|71.08|90.04|[ResNet50_GAP_LRfast](https://pan.baidu.com/s/1en48JRo9DaqAAC0nljR-3Q)|reub|[ResNet50_GAP_LRfast]()|
-|ResNet50_GAP_LRadju|75.32|92.47|[ResNet50_GAP_LRadju](https://pan.baidu.com/s/10ZQ4XAnnhsUNazzt_2bvgg)|5tdw|[ResNet50_GAP_LRadju]()|
-|ResNet50_GCP_LRnorm|78.56|94.09|[ResNet50_GCP_LRnorm](https://pan.baidu.com/s/1gZ6_KMqfUBAjq913zKOPkw)|e7iy|[ResNet50_GCP_LRnorm]()|
-|ResNet50_GCP_LRfast|75.31|92.11|[ResNet50_GCP_LRfast](https://pan.baidu.com/s/1Qg-_jms3AChBw9ZXwl31Qw)|3j8e|[ResNet50_GCP_LRfast]()|
-|ResNet50_GCP_LRadju|78.03|93.95|[ResNet50_GCP_LRadju](https://pan.baidu.com/s/1PGLAKzNuQRkqtjygYov90w)|n4vq|[ResNet50_GCP_LRadju]()|
-|ResNet50_GCP_LRnorm_128|78.02|94.02|[ResNet50_GCP_LRnorm_128](https://pan.baidu.com/s/1FZV-_8lHFzK4_j8_AZna3g)|976a|[ResNet50_GCP_LRnorm_128]()|
-|ResNet50_GCP_LRadju_128|77.72|93.73|[ResNet50_GCP_LRadju_128](https://pan.baidu.com/s/1GxiLO3RTBZoV-3IfIZnupQ)|xf7g|[ResNet50_GCP_LRadju_128]()|
+|ResNet50_GAP_LRnorm|76.02|92.97|[ResNet50_GAP_LRnorm](https://pan.baidu.com/s/1iaDm9ZNiyeANfe6Zzi-PFg)|3r9p|[ResNet50_GAP_LRnorm](https://drive.google.com/open?id=17MyDHCKS8wla8GZvwSbfNfQAJ12KofV_)|
+|ResNet50_GAP_LRfast|71.08|90.04|[ResNet50_GAP_LRfast](https://pan.baidu.com/s/1en48JRo9DaqAAC0nljR-3Q)|reub|[ResNet50_GAP_LRfast](https://drive.google.com/open?id=10yk2wFB_q1VICyTu4CrjWUv-_fnV9Dt2)|
+|ResNet50_GAP_LRadju|75.32|92.47|[ResNet50_GAP_LRadju](https://pan.baidu.com/s/10ZQ4XAnnhsUNazzt_2bvgg)|5tdw|[ResNet50_GAP_LRadju](https://drive.google.com/open?id=1PMNcVO_CNR2JUgXRhBCrqSg9Btj4m4cO)|
+|ResNet50_GCP_LRnorm|78.56|94.09|[ResNet50_GCP_LRnorm](https://pan.baidu.com/s/1gZ6_KMqfUBAjq913zKOPkw)|e7iy|[ResNet50_GCP_LRnorm](https://drive.google.com/open?id=1TmnusKSArjKTTb28cnw2OzrUVc_DAi98)|
+|ResNet50_GCP_LRfast|75.31|92.11|[ResNet50_GCP_LRfast](https://pan.baidu.com/s/1Qg-_jms3AChBw9ZXwl31Qw)|3j8e|[ResNet50_GCP_LRfast](https://drive.google.com/open?id=1at9nxW658Yeh-jqCUc544ex4_j_iA2VJ)|
+|ResNet50_GCP_LRadju|78.03|93.95|[ResNet50_GCP_LRadju](https://pan.baidu.com/s/1PGLAKzNuQRkqtjygYov90w)|n4vq|[ResNet50_GCP_LRadju](https://drive.google.com/open?id=1t2j5LNLr51TZ3O1QtYmgRyPe8zDSg9yr)|
+|ResNet50_GCP_LRnorm_128|78.02|94.02|[ResNet50_GCP_LRnorm_128](https://pan.baidu.com/s/1FZV-_8lHFzK4_j8_AZna3g)|976a|[ResNet50_GCP_LRnorm_128](https://drive.google.com/open?id=1taR2AvNC32YnF9ge4To30JUVa4SNq62g)|
+|ResNet50_GCP_LRadju_128|77.72|93.73|[ResNet50_GCP_LRadju_128](https://pan.baidu.com/s/1GxiLO3RTBZoV-3IfIZnupQ)|xf7g|[ResNet50_GCP_LRadju_128](https://drive.google.com/open?id=1t6r70Vx4J7ev6Lhm0SAalptyF3gQ_5Qk)|
 
 ### ResNet101
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
 |:----:|:-----------:|:-----------:|:----------------:|:----------:|:---------:|
-|ResNet101_GAP_LRnorm|77.67|93.83|[ResNet101_GAP_LRnorm](https://pan.baidu.com/s/19ptqTR4yZLDSotDimuUzbA)|3u9a|[ResNet101_GAP_LRnorm]()|
-|ResNet101_GAP_LRfast|73.13|91.06|[ResNet101_GAP_LRfast](https://pan.baidu.com/s/1hlqHfkfbJH69PBxiq-kx3Q)|11g2|[ResNet101_GAP_LRfast]()|
-|ResNet101_GAP_LRadju|77.53|93.53|[ResNet101_GAP_LRadju](https://pan.baidu.com/s/17Aw2IWHyJ9TwqTui1dpGkg)|nikb|[ResNet101_GAP_LRadju]()|
-|ResNet101_GCP_LRnorm|79.47|94.71|[ResNet101_GCP_LRnorm](https://pan.baidu.com/s/1UVxS_HRrcFUZnYXKEoBU6A)|kr4s|[ResNet101_GCP_LRnorm]()|
-|ResNet101_GCP_LRfast|76.38|92.82|[ResNet101_GCP_LRfast](https://pan.baidu.com/s/1ubrAmWAIXKc_Yhia2jUeRA)|iy77|[ResNet101_GCP_LRfast]()|
-|ResNet101_GCP_LRadju|79.18|94.47|[ResNet101_GCP_LRadju](https://pan.baidu.com/s/1GzT6IgwdhkFVwSfisl7j_w)|ytfb|[ResNet101_GCP_LRadju]()|
+|ResNet101_GAP_LRnorm|77.67|93.83|[ResNet101_GAP_LRnorm](https://pan.baidu.com/s/19ptqTR4yZLDSotDimuUzbA)|3u9a|[ResNet101_GAP_LRnorm](https://drive.google.com/open?id=1N-Wu6VAiOHfD4DqbCm-IfupkxZWjUvTc)|
+|ResNet101_GAP_LRfast|73.13|91.06|[ResNet101_GAP_LRfast](https://pan.baidu.com/s/1hlqHfkfbJH69PBxiq-kx3Q)|11g2|[ResNet101_GAP_LRfast](https://drive.google.com/open?id=1uXVyPGOTgBxwAl1gowyuCgcFRqXT3G0Y)|
+|ResNet101_GAP_LRadju|77.53|93.53|[ResNet101_GAP_LRadju](https://pan.baidu.com/s/17Aw2IWHyJ9TwqTui1dpGkg)|nikb|[ResNet101_GAP_LRadju](https://drive.google.com/open?id=16JhBYDeQI6-kKAAILFDCfeoPt5nUVAv3)|
+|ResNet101_GCP_LRnorm|79.47|94.71|[ResNet101_GCP_LRnorm](https://pan.baidu.com/s/1UVxS_HRrcFUZnYXKEoBU6A)|kr4s|[ResNet101_GCP_LRnorm](https://drive.google.com/open?id=1y8oI2IodJuG7R_gIdrYoXSTPafmszwMh)|
+|ResNet101_GCP_LRfast|76.38|92.82|[ResNet101_GCP_LRfast](https://pan.baidu.com/s/1ubrAmWAIXKc_Yhia2jUeRA)|iy77|[ResNet101_GCP_LRfast](https://drive.google.com/open?id=1iLAV7Hu3jWTRINJ6wRumqkReZEpqubHr)|
+|ResNet101_GCP_LRadju|79.18|94.47|[ResNet101_GCP_LRadju](https://pan.baidu.com/s/1GzT6IgwdhkFVwSfisl7j_w)|ytfb|[ResNet101_GCP_LRadju](https://drive.google.com/open?id=17lNCi6r8CXHM6-Z8Q7YckRReeZXsRQwQ)|
 
 *If you would like to evaluate above pre-trained models, please do the following:
 
