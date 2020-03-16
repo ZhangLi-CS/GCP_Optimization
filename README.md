@@ -44,15 +44,15 @@ We divide the parameters into three types `LRnorm`,`LRfast` and `LRadju`.
 
 ##### LRfast: 
 
-![](http://latex.codecogs.com/gif.latex?lr=0.06\\times0.92^e)` 
+![](http://latex.codecogs.com/gif.latex?lr=0.06\\times0.92^e)
 
-num_epcoh = 100, weight_decay = 4e-5, batch_size = 96`
+`num_epcoh = 100, weight_decay = 4e-5, batch_size = 96`
 
 ##### LRadju:
 
-![](http://latex.codecogs.com/gif.latex?lr=0.045\\times0.98^e)`
+![](http://latex.codecogs.com/gif.latex?lr=0.045\\times0.98^e)
 
-num_epcoh = 150, weight_decay = 4e-5, batch_size = 192`
+`num_epcoh = 150, weight_decay = 4e-5, batch_size = 192`
 
 #### ShuffleNetV2
 
