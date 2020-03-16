@@ -355,11 +355,11 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
 
 <table>
   <tr>
-    <td>Backbone Model</td>
-    <td>Method</td>
-    <td>AP</td>
-    <td>AP<sub>50</sub></td>
-    <td>AP<sub>75</sub></td>
+    <th>Backbone Model</th>
+    <th>Method</th>
+    <th>AP</th>
+    <th>AP<sub>50</sub></th>
+    <th>AP<sub>75</sub></th>
   </tr>
   <tr>
     <td rowspan="2">ResNet18_GCP</td>
@@ -479,14 +479,14 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
 |:-----|:-----------:|:-----------:|:-----------------|:----------:|:----------|
 |ResNet18_GCP_Downsample|  |  |[ResNet18_GCP_Downsample]()|   |[ResNet18_GCP_Downsample]()|
-|ResNet50_GCP_Downsample|  |  |[ResNet50_GCP_Downsample]()|   |[ResNet50_GCP_Downsample]()|
-|ResNet101_GCP_Downsample|  |  |[ResNet101_GCP_Downsample]()|   |[ResNet101_GCP_Downsample]()|
 |ResNet50_GAP|  |  |[ResNet50_GAP]()|   |[ResNet50_GAP]()|
 |ResNet50_GCP_D|  |  |[ResNet50_GCP_D]()|   |[ResNet50_GCP_D]()|
 |ResNet50_GCP_M|  |  |[ResNet50_GCP_M]()|   |[ResNet50_GCP_M]()|
+|ResNet50_GCP_Downsample|  |  |[ResNet50_GCP_Downsample]()|   |[ResNet50_GCP_Downsample]()|
 |ResNet101_GAP|  |  |[ResNet101_GAP]()|   |[ResNet101_GAP]()|
 |ResNet101_GCP_D|  |  |[ResNet101_GCP_D]()|   |[ResNet101_GCP_D]()|
 |ResNet101_GCP_M|  |  |[ResNet101_GCP_M]()|   |[ResNet101_GCP_M]()|
+|ResNet101_GCP_Downsample|  |  |[ResNet101_GCP_Downsample]()|   |[ResNet101_GCP_Downsample]()|
 
 *Note ResNet_GCP_without_Downsample is same as ResNet_GCP_LRnorm, you can find the model as following.
 
