@@ -141,6 +141,226 @@ You can download the test code and the dateset from  [https://github.com/hendryc
   </tr>
 </table>
 
+## Object Detection
+
+We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our models on object detection.
+
+### Our result on COCO val2017
+
+#### Use Faster R-CNN
+
+<table>
+  <tr>
+    <th>Backbone Model</th>
+    <th>Method</th>
+    <th>AP</th>
+    <th>AP<sub>50</sub></th>
+    <th>AP<sub>75</sub></th>
+    <th>AP<sub>S</sub></th>
+    <th>AP<sub>M</sub></th>
+    <th>AP<sub>L</sub></th>
+  </tr>
+  <tr>
+    <th rowspan="3">ResNet50</th>
+    <td>GAP</td>
+    <td>36.4</td>
+    <td>58.2</td>
+    <td>39.2</td>
+    <td>21.8</td>
+    <td>40.0</td>
+    <td>46.2</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>D</sub></td>
+    <td>36.6</td>
+    <td>58.4</td>
+    <td>39.5</td>
+    <td>21.3</td>
+    <td>40.8</td>
+    <td>47.0</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>M</sub></td>
+    <th>37.1</th>
+    <th>59.1</th>
+    <th>39.9</th>
+    <th>22.0</th>
+    <th>40.9</th>
+    <th>47.6</th>
+  </tr>
+  <th rowspan="3">ResNet101</th>
+    <td>GAP</td>
+    <td>38.7</td>
+    <td>60.6</td>
+    <td>41.9</td>
+    <td>22.7</td>
+    <td>43.2</td>
+    <td>50.4</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>D</sub></td>
+    <td>39.5</td>
+    <td>60.7</td>
+    <td>43.1</td>
+    <td>22.9</td>
+    <th>44.1</th>
+    <th>51.4</th>
+  </tr>
+  <tr>
+    <td>GCP<sub>M</sub></td>
+    <th>39.6</th>
+    <th>61.2</th>
+    <th>43.1</th>
+    <th>23.3</th>
+    <td>43.9</td>
+    <td>51.3</td>
+  </tr>
+</table>
+
+#### Use Mask R-CNN
+
+<table>
+  <tr>
+    <th>Backbone Model</th>
+    <th>Method</th>
+    <th>AP</th>
+    <th>AP<sub>50</sub></th>
+    <th>AP<sub>75</sub></th>
+    <th>AP<sub>S</sub></th>
+    <th>AP<sub>M</sub></th>
+    <th>AP<sub>L</sub></th>
+  </tr>
+  <tr>
+    <th rowspan="3">ResNet50</th>
+    <td>GAP</td>
+    <td>37.2</td>
+    <td>58.9</td>
+    <td>40.3</td>
+    <td>22.2</td>
+    <td>40.7</td>
+    <td>48.0</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>D</sub></td>
+    <td>37.3</td>
+    <td>58.8</td>
+    <td>40.4</td>
+    <td>22.0</td>
+    <td>41.1</td>
+    <td>48.2</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>M</sub></td>
+    <th>37.9</th>
+    <th>59.4</th>
+    <th>41.3</th>
+    <th>22.4</th>
+    <th>41.5</th>
+    <th>49.0</th>
+  </tr>
+  <th rowspan="3">ResNet101</th>
+    <td>GAP</td>
+    <td>39.4</td>
+    <td>60.9</td>
+    <td>43.3</td>
+    <td>23.0</td>
+    <td>43.7</td>
+    <td>51.4</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>D</sub></td>
+    <td>40.3</td>
+    <td>61.5</td>
+    <td>44.0</td>
+    <th>24.1</th>
+    <td>44.7</td>
+    <td>52.5</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>M</sub></td>
+    <th>40.7</th>
+    <th>62.0</th>
+    <th>44.6</th>
+    <td>23.9</td>
+    <th>45.2</th>
+    <th>52.9</th>
+  </tr>
+</table>
+
+## Instance Segmentation
+
+### Our result on COCO val2017
+
+#### Use Faster R-CNN
+
+<table>
+  <tr>
+    <th>Backbone Model</th>
+    <th>Method</th>
+    <th>AP</th>
+    <th>AP<sub>50</sub></th>
+    <th>AP<sub>75</sub></th>
+    <th>AP<sub>S</sub></th>
+    <th>AP<sub>M</sub></th>
+    <th>AP<sub>L</sub></th>
+  </tr>
+  <tr>
+    <th rowspan="3">ResNet50</th>
+    <td>GAP</td>
+    <td>34.1</td>
+    <td>55.5</td>
+    <td>36.2</td>
+    <td>16.1</td>
+    <td>36.7</td>
+    <td>50.0</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>D</sub></td>
+    <td>34.2</td>
+    <td>55.3</td>
+    <td>36.4</td>
+    <td>15.8</td>
+    <td>37.1</td>
+    <td>50.1</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>M</sub></td>
+    <th>34.7</th>
+    <th>56.3</th>
+    <th>36.8</th>
+    <th>16.4</th>
+    <th>37.5</th>
+    <th>50.6</th>
+  </tr>
+  <th rowspan="3">ResNet101</th>
+    <td>GAP</td>
+    <td>35.9</td>
+    <td>57.7</td>
+    <td>38.4</td>
+    <td>16.8</td>
+    <td>39.1</td>
+    <td>53.6</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>D</sub></td>
+    <td>36.5</td>
+    <td>58.2</td>
+    <td>38.9</td>
+    <td>17.3</td>
+    <td>39.9</td>
+    <td>53.5</td>
+  </tr>
+  <tr>
+    <td>GCP<sub>M</sub></td>
+    <th>36.7</th>
+    <th>58.7</th>
+    <th>39.1</th>
+    <th>17.6</th>
+    <th>39.9</th>
+    <th>53.7</th>
+  </tr>
+</table>
+
 ## Main Results and Models 
 
 ### MobileNetV2
@@ -214,7 +434,7 @@ You can download the test code and the dateset from  [https://github.com/hendryc
 2. Testing on ImageNet: In floder `src` , run ` sh ./scripts/val/val_download.sh` 
 
 ## Acknowledgments
-We would like to thank the team behind the [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV) and [ImageNet-C & ImageNet-P](https://github.com/hendrycks/robustness)for providing a nice code, and our code is based on it.
+We would like to thank the team behind the [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV), [ImageNet-C & ImageNet-P](https://github.com/hendrycks/robustness) and [mmdetection](https://github.com/open-mmlab/mmdetection) for providing a nice code, and our code is based on it.
 
 ## Contact
 If you have any questions or suggestions, please feel free to contact us: qlwang@tju.edu.cn; li_zhang@tju.edu.cn.
