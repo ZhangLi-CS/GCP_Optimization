@@ -474,7 +474,7 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
   </tr>
 </table>
 
-### Our test model on 
+### Our test model on Object Detection and Instance Segmentation
 
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
 |:-----|:-----------:|:-----------:|:-----------------|:----------:|:----------|
