@@ -141,11 +141,11 @@ You can download the test code and the dateset from  [https://github.com/hendryc
   </tr>
 </table>
 
-## Object Detection
+## Object Detection and Instance Segmentation
 
-We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our models on object detection.
-
-### Our result on COCO val2017
+We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our models on Object Detection and Instance Segmentation.
+ 
+### Object Detection result on COCO val2017
 
 #### Use Faster R-CNN
 
@@ -188,7 +188,8 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
     <th>40.9</th>
     <th>47.6</th>
   </tr>
-  <th rowspan="3">ResNet101</th>
+  <tr>
+    <th rowspan="3">ResNet101</th>
     <td>GAP</td>
     <td>38.7</td>
     <td>60.6</td>
@@ -258,7 +259,8 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
     <th>41.5</th>
     <th>49.0</th>
   </tr>
-  <th rowspan="3">ResNet101</th>
+  <tr>
+    <th rowspan="3">ResNet101</th>
     <td>GAP</td>
     <td>39.4</td>
     <td>60.9</td>
@@ -287,9 +289,21 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
   </tr>
 </table>
 
-## Instance Segmentation
+### Object Detection result on MS COCO
 
-### Our result on COCO val2017
+#### Use Faster R-CNN
+
+<table>
+  <tr>
+    <td>Backbone</td>
+    <td>Method</td>
+    <td>AP</td>
+    <td>AP<sub>50</sub></td>
+    <td>AP<sub>75</sub></td>
+  </tr>
+</table>
+
+### Instance Segmentation result on COCO val2017
 
 #### Use Faster R-CNN
 
@@ -360,6 +374,13 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
     <th>53.7</th>
   </tr>
 </table>
+
+### Our test model on 
+
+|Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
+|:-----|:-----------:|:-----------:|:-----------------|:----------:|:----------|
+|ResNet50_GCP|  |  |[ResNet50_GCP]()|   |[ResNet50_GCP]()|
+|ResNet101_GCP|  |  |[ResNet101_GCP]()|   |[ResNet01_GCP]()|
 
 ## Main Results and Models 
 
