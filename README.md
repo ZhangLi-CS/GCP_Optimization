@@ -30,6 +30,66 @@ pytorch installation following [pytorch.org](https://pytorch.org/)
 
 *Note that you need to modify  the `dataset path` or `model name` in `train.sh` or `val.sh` for fitting your configurations, and descriptions on all parameters can be found in file `./src/scripts/readme.txt`.
 
+### parameter settings
+
+We divide the parameters into three types `LRnorm`,`LRfast` and `LRadju`.
+
+#### MobileNetV2
+
+##### LRnorm: 
+
+![](http://latex.codecogs.com/gif.latex?lr=0.045\\times0.98^e)
+
+`num_epcoh = 400, weight_decay = 4e-5, batch_size = 96`
+
+##### LRfast: 
+
+![](http://latex.codecogs.com/gif.latex?lr=0.06\\times0.92^e)` 
+
+num_epcoh = 100, weight_decay = 4e-5, batch_size = 96`
+
+##### LRadju:
+
+![](http://latex.codecogs.com/gif.latex?lr=0.045\\times0.98^e)`
+
+num_epcoh = 150, weight_decay = 4e-5, batch_size = 192`
+
+#### ShuffleNetV2
+
+![](http://latex.codecogs.com/gif.latex?lr=0.5\\times(1-\frac{step}{total\\_step}))
+
+##### LRnorm:
+
+`num_epcoh = 240, weight_decay = 4e-5, batch_size = 1024`
+
+##### LRfast:
+
+`num_epcoh = 60, weight_decay = 4e-5, batch_size = 1024`
+
+##### LRadju:
+
+`num_epcoh = 100, weight_decay = 4e-5, batch_size = 1024`
+
+#### ResNet
+
+##### LRnorm:
+
+![](http://latex.codecogs.com/gif.latex?lr=0.1^{(e//30)+1})
+
+`num_epcoh = 100, weight_decay = 1e-4, batch_size = 256`
+
+##### LRfast: 
+
+![](http://latex.codecogs.com/gif.latex?lr=0.1\\times(1-\\frac{e-1}{52})^{11}) 
+
+`num_epcoh = 100, weight_decay = 1e-4, batch_size = 256`
+
+##### LRadju: 
+
+![](http://latex.codecogs.com/gif.latex?lr=0.1\\times(1-\\frac{e-1}{49})^{2})
+
+`num_epcoh = 100, weight_decay = 1e-4, batch_size = 256`
+
 ## Test the LandScape
 
 1. Test MobileNetV2 models' LandScape: In the floder `./landscape/MobileNetV2` , run `sh ./scripts/train.sh`
@@ -295,11 +355,50 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
 
 <table>
   <tr>
-    <td>Backbone</td>
+    <td>Backbone Model</td>
     <td>Method</td>
     <td>AP</td>
     <td>AP<sub>50</sub></td>
     <td>AP<sub>75</sub></td>
+  </tr>
+  <tr>
+    <td rowspan="2">ResNet18_GCP</td>
+    <td>w/o DS</td>
+    <td>30.0</td>
+    <td>50.7</td>
+    <td>31.4</td>
+  </tr>
+  <tr>
+    <td>w/ DS</td>
+    <th>30.3</th>
+    <th>51.0</th>
+    <th>32.2</th>
+  </tr>
+  <tr>
+    <td rowspan="2">ResNet50_GCP</td>
+    <td>w/o DS</td>
+    <td>36.6</td>
+    <td>58.4</td>
+    <td>39.5</td>
+  </tr>
+  <tr>
+    <td>w/ DS</td>
+    <th>36.8</th>
+    <th>58.5</th>
+    <th>39.7</th>
+  </tr>
+  <tr>
+    <td rowspan="2">ResNet101_GCP</td>
+    <td>w/o DS</td>
+    <td>39.5</td>
+    <td>60.7</td>
+    <td>43.1</td>
+  </tr>
+  <tr>
+    <td>w/ DS</td>
+    <th>39.6</th>
+    <th>60.9</th>
+    <th>43.4</th>
   </tr>
 </table>
 
@@ -379,8 +478,17 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
 
 |Models|Top-1 acc.(%)|Top-5 acc.(%)|BaiduDrive(models)|Extract code|GoogleDrive|
 |:-----|:-----------:|:-----------:|:-----------------|:----------:|:----------|
-|ResNet50_GCP|  |  |[ResNet50_GCP]()|   |[ResNet50_GCP]()|
-|ResNet101_GCP|  |  |[ResNet101_GCP]()|   |[ResNet01_GCP]()|
+|ResNet18_GCP_Downsample|  |  |[ResNet18_GCP_Downsample]()|   |[ResNet18_GCP_Downsample]()|
+|ResNet50_GCP_Downsample|  |  |[ResNet50_GCP_Downsample]()|   |[ResNet50_GCP_Downsample]()|
+|ResNet101_GCP_Downsample|  |  |[ResNet101_GCP_Downsample]()|   |[ResNet101_GCP_Downsample]()|
+|ResNet50_GAP|  |  |[ResNet50_GAP]()|   |[ResNet50_GAP]()|
+|ResNet50_GCP_D|  |  |[ResNet50_GCP_D]()|   |[ResNet50_GCP_D]()|
+|ResNet50_GCP_M|  |  |[ResNet50_GCP_M]()|   |[ResNet50_GCP_M]()|
+|ResNet101_GAP|  |  |[ResNet101_GAP]()|   |[ResNet101_GAP]()|
+|ResNet101_GCP_D|  |  |[ResNet101_GCP_D]()|   |[ResNet101_GCP_D]()|
+|ResNet101_GCP_M|  |  |[ResNet101_GCP_M]()|   |[ResNet101_GCP_M]()|
+
+*Note ResNet_GCP_without_Downsample is same as ResNet_GCP_LRnorm, you can find the model as following.
 
 ## Main Results and Models 
 
