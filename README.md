@@ -30,65 +30,11 @@ pytorch installation following [pytorch.org](https://pytorch.org/)
 
 *Note that you need to modify  the `dataset path` or `model name` in `train.sh` or `val.sh` for fitting your configurations, and descriptions on all parameters can be found in file `./src/scripts/readme.txt`.
 
-### parameter settings
+### Parameter Settings
 
 We divide the parameters into three types `LRnorm`,`LRfast` and `LRadju`.
 
-#### MobileNetV2
 
-##### LRnorm: 
-
-![](http://latex.codecogs.com/gif.latex?lr=0.045\\times0.98^e)
-
-`num_epcoh = 400, weight_decay = 4e-5, batch_size = 96`
-
-##### LRfast: 
-
-![](http://latex.codecogs.com/gif.latex?lr=0.06\\times0.92^e)
-
-`num_epcoh = 100, weight_decay = 4e-5, batch_size = 96`
-
-##### LRadju:
-
-![](http://latex.codecogs.com/gif.latex?lr=0.045\\times0.98^e)
-
-`num_epcoh = 150, weight_decay = 4e-5, batch_size = 192`
-
-#### ShuffleNetV2
-
-![](http://latex.codecogs.com/gif.latex?lr=0.5\\times(1-\frac{step}{total\\_step}))
-
-##### LRnorm:
-
-`num_epcoh = 240, weight_decay = 4e-5, batch_size = 1024`
-
-##### LRfast:
-
-`num_epcoh = 60, weight_decay = 4e-5, batch_size = 1024`
-
-##### LRadju:
-
-`num_epcoh = 100, weight_decay = 4e-5, batch_size = 1024`
-
-#### ResNet
-
-##### LRnorm:
-
-![](http://latex.codecogs.com/gif.latex?lr=0.1^{(e//30)+1})
-
-`num_epcoh = 100, weight_decay = 1e-4, batch_size = 256`
-
-##### LRfast: 
-
-![](http://latex.codecogs.com/gif.latex?lr=0.1\\times(1-\\frac{e-1}{52})^{11}) 
-
-`num_epcoh = 100, weight_decay = 1e-4, batch_size = 256`
-
-##### LRadju: 
-
-![](http://latex.codecogs.com/gif.latex?lr=0.1\\times(1-\\frac{e-1}{49})^{2})
-
-`num_epcoh = 100, weight_decay = 1e-4, batch_size = 256`
 
 ## Test the LandScape
 
