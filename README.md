@@ -34,7 +34,7 @@ pytorch installation following [pytorch.org](https://pytorch.org/)
 
 We divide the parameters into three types `LRnorm`,`LRfast` and `LRadju`.
 
-
+![LearningRate](https://github.com/ZhangLi-CS/GCP_Optimization/LearningRate.png)
 
 ## Test the LandScape
 
