@@ -447,17 +447,16 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
 
 |Models|BaiduDrive(models)|Extract code|GoogleDrive|
 |:-----|:-----------------|:----------:|:----------|
+|ResNet18_GCP_D|[ResNet18_GCP_D]()|   |[ResNet18_GCP_D]()|
 |ResNet18_GCP_Downsample|[ResNet18_GCP_Downsample]()|   |[ResNet18_GCP_Downsample]()|
 |ResNet50_GAP|[ResNet50_GAP]()|   |[ResNet50_GAP]()|
 |ResNet50_GCP_D|[ResNet50_GCP_D]()|   |[ResNet50_GCP_D]()|
 |ResNet50_GCP_M|[ResNet50_GCP_M]()|   |[ResNet50_GCP_M]()|
 |ResNet50_GCP_Downsample|[ResNet50_GCP_Downsample]()|   |[ResNet50_GCP_Downsample]()|
-|ResNet101_GA|[ResNet101_GAP]()|   |[ResNet101_GAP]()|
+|ResNet101_GAP|[ResNet101_GAP]()|   |[ResNet101_GAP]()|
 |ResNet101_GCP_D|[ResNet101_GCP_D]()|   |[ResNet101_GCP_D]()|
 |ResNet101_GCP_M|[ResNet101_GCP_M]()|   |[ResNet101_GCP_M]()|
 |ResNet101_GCP_Downsample|[ResNet101_GCP_Downsample]()|   |[ResNet101_GCP_Downsample]()|
-
-*Note ResNet_GCP_without_Downsample is same as ResNet_GCP_LRnorm, you can find the model as following.
 
 ## Acknowledgments
 We would like to thank the team behind the [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV), [ImageNet-C & ImageNet-P](https://github.com/hendrycks/robustness) and [mmdetection](https://github.com/open-mmlab/mmdetection) for providing a nice code, and our code is based on it.
