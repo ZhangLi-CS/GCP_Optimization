@@ -19,6 +19,7 @@ Recent works have demonstrated that global covariance pooling (GCP) has the abil
 pytorch installation following [pytorch.org](https://pytorch.org/)
 
 ## Test the LandScape
+![Lipschitzness](https://github.com/ZhangLi-CS/GCP_Optimization/blob/master/Lipschitzness.png)
 
 1. Test MobileNetV2 models' LandScape: In the floder `./landscape/MobileNetV2` , run `sh ./scripts/train.sh`
 
