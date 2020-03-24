@@ -228,7 +228,8 @@ You can download the test code and the dateset from  [https://github.com/hendryc
     <td>68.3</td> 
   </tr>
 </table>
-*The models which with `*` can be download from pytroch, you can find other models in Section `Main Results and Models`
+*The models which with * can be download from pytroch, other models can be find in Section Main Results and Models
+
 ## Experiments on Object Detection and Instance Segmentation
 
 We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our models on Object Detection and Instance Segmentation.
@@ -451,18 +452,27 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
 
 ### Our Pre-trained Models on Object Detection and Instance Segmentation
 
+#### Faster R-CNN
+
 |Models|BaiduDrive(models)|Extract code|GoogleDrive|
 |:-----|:-----------------|:----------:|:----------|
-|ResNet18_GCP_D|[ResNet18_GCP_D]()|   |[ResNet18_GCP_D]()|
-|ResNet18_GCP_Downsample|[ResNet18_GCP_Downsample]()|   |[ResNet18_GCP_Downsample]()|
 |ResNet50_GAP|[ResNet50_GAP]()|   |[ResNet50_GAP]()|
 |ResNet50_GCP_D|[ResNet50_GCP_D]()|   |[ResNet50_GCP_D]()|
 |ResNet50_GCP_M|[ResNet50_GCP_M]()|   |[ResNet50_GCP_M]()|
-|ResNet50_GCP_Downsample|[ResNet50_GCP_Downsample]()|   |[ResNet50_GCP_Downsample]()|
 |ResNet101_GAP|[ResNet101_GAP]()|   |[ResNet101_GAP]()|
 |ResNet101_GCP_D|[ResNet101_GCP_D]()|   |[ResNet101_GCP_D]()|
 |ResNet101_GCP_M|[ResNet101_GCP_M]()|   |[ResNet101_GCP_M]()|
-|ResNet101_GCP_Downsample|[ResNet101_GCP_Downsample]()|   |[ResNet101_GCP_Downsample]()|
+
+#### Mask R-CNN
+
+|Models|BaiduDrive(models)|Extract code|GoogleDrive|
+|:-----|:-----------------|:----------:|:----------|
+|ResNet50_GAP|[ResNet50_GAP]()|   |[ResNet50_GAP]()|
+|ResNet50_GCP_D|[ResNet50_GCP_D]()|   |[ResNet50_GCP_D]()|
+|ResNet50_GCP_M|[ResNet50_GCP_M]()|   |[ResNet50_GCP_M]()|
+|ResNet101_GAP|[ResNet101_GAP]()|   |[ResNet101_GAP]()|
+|ResNet101_GCP_D|[ResNet101_GCP_D]()|   |[ResNet101_GCP_D]()|
+|ResNet101_GCP_M|[ResNet101_GCP_M]()|   |[ResNet101_GCP_M]()|
 
 ## Acknowledgments
 We would like to thank the team behind the [iSQRT-COV](https://github.com/jiangtaoxie/fast-MPN-COV), [ImageNet-C & ImageNet-P](https://github.com/hendrycks/robustness) and [mmdetection](https://github.com/open-mmlab/mmdetection) for providing a nice code, and our code is based on it.
