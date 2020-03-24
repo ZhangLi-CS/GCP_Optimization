@@ -7,7 +7,7 @@ Recent works have demonstrated that global covariance pooling (GCP) has the abil
 ## Citation
 
 
-## Our environments
+## Environments
 
 - OS: Ubuntu 16.04
 - CUDA: 9.0/10.0
@@ -18,7 +18,8 @@ Recent works have demonstrated that global covariance pooling (GCP) has the abil
 
 pytorch installation following [pytorch.org](https://pytorch.org/)
 
-## Test the LandScape
+## Plot Loss Landscape and Gradient Predictiveness
+
 ![Lipschitzness](https://github.com/ZhangLi-CS/GCP_Optimization/blob/master/Lipschitzness.png)
 
 1. Test MobileNetV2 models' LandScape: In the floder `./landscape/MobileNetV2` , run `sh ./scripts/train.sh`
@@ -30,13 +31,13 @@ pytorch installation following [pytorch.org](https://pytorch.org/)
 
 ## Experiments on ImageNet
 
-### Parameters setting
+### Setting Parameters 
 
 We divide the parameters into three types `LRnorm`,`LRfast` and `LRadju`.
 
 ![LearningRate](https://github.com/ZhangLi-CS/GCP_Optimization/blob/master/LearningRate.png)
 
-### Training models
+### Training Models
 
 1. Training models (except ShuffleNetV2) on ImageNet : In floder `src` , run ` sh ./scripts/train/train.sh `
 
@@ -118,9 +119,10 @@ We divide the parameters into three types `LRnorm`,`LRfast` and `LRadju`.
 
 2. Testing on ImageNet: In floder `src` , run ` sh ./scripts/val/val_download.sh` 
 
-## Experiments ImageNet-C and ImageNet-P
+## Experiments on ImageNet-C and ImageNet-P
 
 You can download the test code and the dateset from  [https://github.com/hendrycks/robustness](https://github.com/hendrycks/robustness)
+
 ### Result on ImageNet-C and ImageNet-P 
 
 <table>
@@ -225,7 +227,7 @@ You can download the test code and the dateset from  [https://github.com/hendryc
 
 We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our models on Object Detection and Instance Segmentation.
  
-### Object Detection Result on COCO val2017
+### Object Detection Results on COCO val2017
 
 #### Faster R-CNN
 
@@ -369,62 +371,9 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our 
   </tr>
 </table>
 
-### Object Detection Result on MS COCO
-
-#### Faster R-CNN
-
-<table>
-  <tr>
-    <th>Backbone Model</th>
-    <th>Method</th>
-    <th>AP</th>
-    <th>AP<sub>50</sub></th>
-    <th>AP<sub>75</sub></th>
-  </tr>
-  <tr>
-    <td rowspan="2">ResNet18_GCP</td>
-    <td>w/o DS</td>
-    <td>30.0</td>
-    <td>50.7</td>
-    <td>31.4</td>
-  </tr>
-  <tr>
-    <td>w/ DS</td>
-    <th>30.3</th>
-    <th>51.0</th>
-    <th>32.2</th>
-  </tr>
-  <tr>
-    <td rowspan="2">ResNet50_GCP</td>
-    <td>w/o DS</td>
-    <td>36.6</td>
-    <td>58.4</td>
-    <td>39.5</td>
-  </tr>
-  <tr>
-    <td>w/ DS</td>
-    <th>36.8</th>
-    <th>58.5</th>
-    <th>39.7</th>
-  </tr>
-  <tr>
-    <td rowspan="2">ResNet101_GCP</td>
-    <td>w/o DS</td>
-    <td>39.5</td>
-    <td>60.7</td>
-    <td>43.1</td>
-  </tr>
-  <tr>
-    <td>w/ DS</td>
-    <th>39.6</th>
-    <th>60.9</th>
-    <th>43.4</th>
-  </tr>
-</table>
-
 ### Instance Segmentation Result on COCO val2017
 
-#### Faster R-CNN
+#### Mask R-CNN
 
 <table>
   <tr>
