@@ -6,6 +6,12 @@ Recent works have demonstrated that global covariance pooling (GCP) has the abil
 
 ## Citation
 
+@inproceedings{wang2020deep,
+  title={What Deep CNNs Benefit from Global Covariance Pooling: An Optimization Perspective},
+  author={Wang, Qilong and Zhang, Li and Wu, Banggu and Ren, Dongwei and Li, Peihua and Zuo, Wangmeng and Hu, Qinghua},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2020}
+}
 
 ## Environments
 
