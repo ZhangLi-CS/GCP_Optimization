@@ -172,7 +172,7 @@ You can download the test code and the dateset from  [https://github.com/hendryc
     <td>95.5</td> 
   </tr>
   <tr>
-    <td align=left>ResNet18</td>
+    <td align=left>ResNet18*</td>
     <td>84.7</td>
     <td>103.9</td>
     <td>72.8</td>
@@ -186,7 +186,7 @@ You can download the test code and the dateset from  [https://github.com/hendryc
     <td>77.1</td> 
   </tr>
   <tr>
-    <td align=left>ResNet34</td>
+    <td align=left>ResNet34*</td>
     <td>77.9</td>
     <td>98.7</td>
     <td>61.7</td>
@@ -200,7 +200,7 @@ You can download the test code and the dateset from  [https://github.com/hendryc
     <td>72.4</td> 
   </tr>
   <tr>
-    <td align=left>ResNet50</td>
+    <td align=left>ResNet50*</td>
     <td>76.7</td>
     <td>105.0</td>
     <td>58.0</td>
@@ -214,7 +214,7 @@ You can download the test code and the dateset from  [https://github.com/hendryc
     <td>74.6</td> 
   </tr>
   <tr>
-    <td align=left>ResNet101</td>
+    <td align=left>ResNet101*</td>
     <td>70.3</td>
     <td>93.7</td>
     <td>52.6</td>
@@ -228,7 +228,7 @@ You can download the test code and the dateset from  [https://github.com/hendryc
     <td>68.3</td> 
   </tr>
 </table>
-
+*The models which with `*` can be download from pytroch, you can find other models in Section `Main Results and Models`
 ## Experiments on Object Detection and Instance Segmentation
 
 We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our models on Object Detection and Instance Segmentation.
