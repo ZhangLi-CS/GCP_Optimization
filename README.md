@@ -226,7 +226,7 @@ You can download the test code and the dateset from  [https://github.com/hendryc
 ## Experiments on Object Detection and Instance Segmentation
 
 We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our models on Object Detection and Instance Segmentation.
- 
+
 ### Object Detection Results on COCO val2017
 
 #### Faster R-CNN
