@@ -172,7 +172,7 @@ The datesets and evaluation code can be downloaded from   [https://github.com/he
     <td>95.5</td> 
   </tr>
   <tr>
-    <td align=left>ResNet18*</td>
+    <td align=left>ResNet18<sup>+</sup></td>
     <td>84.7</td>
     <td>103.9</td>
     <td>72.8</td>
@@ -186,7 +186,7 @@ The datesets and evaluation code can be downloaded from   [https://github.com/he
     <td>77.1</td> 
   </tr>
   <tr>
-    <td align=left>ResNet34*</td>
+    <td align=left>ResNet34<sup>+</sup></td>
     <td>77.9</td>
     <td>98.7</td>
     <td>61.7</td>
@@ -200,7 +200,7 @@ The datesets and evaluation code can be downloaded from   [https://github.com/he
     <td>72.4</td> 
   </tr>
   <tr>
-    <td align=left>ResNet50*</td>
+    <td align=left>ResNet50<sup>+</sup></td>
     <td>76.7</td>
     <td>105.0</td>
     <td>58.0</td>
@@ -214,7 +214,7 @@ The datesets and evaluation code can be downloaded from   [https://github.com/he
     <td>74.6</td> 
   </tr>
   <tr>
-    <td align=left>ResNet101*</td>
+    <td align=left>ResNet101<sup>+</sup></td>
     <td>70.3</td>
     <td>93.7</td>
     <td>52.6</td>
@@ -228,11 +228,12 @@ The datesets and evaluation code can be downloaded from   [https://github.com/he
     <td>68.3</td> 
   </tr>
 </table>
-*The models which with * can be download from pytroch, other models can be find in Section Main Results and Models
+*The models which with + can be download from pytroch, and other models can be found in Section of Main Results and Models.
+
 
 ## Experiments on Object Detection and Instance Segmentation
 
-We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to test our models on Object Detection and Instance Segmentation.
+We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/evaluate our models on Object Detection and Instance Segmentation.
 
 ### Object Detection Results on COCO val2017
 
