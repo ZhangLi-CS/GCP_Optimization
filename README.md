@@ -429,9 +429,9 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/eva
     <td>23.9</td>
     <th>45.2</th>
     <th>52.9</th>
-    <td><a href="https://pan.baidu.com/s/1b6n_yg-R3HlOMFACLR-tqw">ResNet101_GCP_D</td>
+    <td><a href="https://pan.baidu.com/s/1b6n_yg-R3HlOMFACLR-tqw">ResNet101_GCP_M</td>
     <td>0fbl</td>
-    <td><a href="https://drive.google.com/open?id=1nAvaCu9Z4mA9ajSRfqok7cQ-G5VN1CbK">ResNet101_GCP_D</td>
+    <td><a href="https://drive.google.com/open?id=1nAvaCu9Z4mA9ajSRfqok7cQ-G5VN1CbK">ResNet101_GCP_M</td>
   </tr>
 </table>
 
