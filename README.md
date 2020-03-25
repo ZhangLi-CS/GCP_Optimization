@@ -127,7 +127,7 @@ We divide the parameters into three types `LRnorm`,`LRfast` and `LRadju`.
 
 ## Experiments on ImageNet-C and ImageNet-P
 
-You can download the test code and the dateset from  [https://github.com/hendrycks/robustness](https://github.com/hendrycks/robustness)
+The datesets and evaluation code can be downloaded from   [https://github.com/hendrycks/robustness](https://github.com/hendrycks/robustness)
 
 ### Result on ImageNet-C and ImageNet-P 
 
