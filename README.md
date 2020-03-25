@@ -32,7 +32,7 @@ conda activate gcp-optimization
 
 conda install pytorch torchvision -c pytorch
 
-##### c. Clone the mmdetection repository.
+##### c. Clone the GCP_Optimization repository.
 
 git clone https://github.com/ZhangLi-CS/GCP_Optimization.git
 
