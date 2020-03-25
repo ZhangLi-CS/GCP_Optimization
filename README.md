@@ -60,7 +60,7 @@ the setting of lr in each original paper.
 ##### LRfast: 
 The setting of lr has the fastest convergence.
 
-##### LRadju
+##### LRadju:
 
 the setting of lr makes the best trade-off between convergence speed and classification accuracy.
 
