@@ -24,19 +24,19 @@ Recent works have demonstrated that global covariance pooling (GCP) has the abil
 
 ##### a. Create a conda virtual environment and activate it.
 
-conda create -n gcp-optimization python=3.7
+`conda create -n gcp-optimization python=3.7`
 
-conda activate gcp-optimization
+`conda activate gcp-optimization`
 
 ##### b. Install PyTorch and torchvision following the [official instructions](https://pytorch.org/), e.g.,
 
-conda install pytorch torchvision -c pytorch
+`conda install pytorch torchvision -c pytorch`
 
 ##### c. Clone the GCP_Optimization repository.
 
-git clone https://github.com/ZhangLi-CS/GCP_Optimization.git
+`git clone https://github.com/ZhangLi-CS/GCP_Optimization.git`
 
-cd GCP_Optimization
+`cd GCP_Optimization`
 
 ## Plot Loss Landscape and Gradient Predictiveness
 
