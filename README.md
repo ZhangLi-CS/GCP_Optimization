@@ -355,6 +355,9 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/eva
     <th>AP<sub>S</sub></th>
     <th>AP<sub>M</sub></th>
     <th>AP<sub>L</sub></th>
+    <th>BaiduDrive(models)</th>
+    <th>Extract code</th>
+    <th>GoogleDrive</th>
   </tr>
   <tr>
     <th rowspan="3">ResNet50</th>
@@ -365,6 +368,9 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/eva
     <td>22.2</td>
     <td>40.7</td>
     <td>48.0</td>
+    <td><a href="https://pan.baidu.com/s/1DTw4qVu6yk5YzrsgkjE9GA">ResNet50_GAP</td>
+    <td>wg4y</td>
+    <td><a href="https://drive.google.com/open?id=1GGhFsfriN8kTofx1sU7tSm0JSDP_5TcD">ResNet50_GAP</td>
   </tr>
   <tr>
     <td>GCP<sub>D</sub></td>
@@ -374,6 +380,9 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/eva
     <td>22.0</td>
     <td>41.1</td>
     <td>48.2</td>
+    <td><a href="https://pan.baidu.com/s/1FsFHxnzcQZk8zMS8cQeung">ResNet50_GCP_D</td>
+    <td>b7fw</td>
+    <td><a href="https://drive.google.com/open?id=1LCyS2dYLjCb0uuUso2cb7Wgb4vhwET6A">ResNet50_GCP_D</td>
   </tr>
   <tr>
     <td>GCP<sub>M</sub></td>
@@ -383,6 +392,9 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/eva
     <th>22.4</th>
     <th>41.5</th>
     <th>49.0</th>
+    <td><a href="https://pan.baidu.com/s/1r63dEMKdmqYfuMq2m3inDg">ResNet50_GCP_M</td>
+    <td>3p37</td>
+    <td><a href="https://drive.google.com/open?id=1r7BjgwbArNekPb940-rBZIR5sKlyAEtA">ResNet50_GCP_M</td>
   </tr>
   <tr>
     <th rowspan="3">ResNet101</th>
@@ -393,6 +405,9 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/eva
     <td>23.0</td>
     <td>43.7</td>
     <td>51.4</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>GCP<sub>D</sub></td>
@@ -402,6 +417,9 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/eva
     <th>24.1</th>
     <td>44.7</td>
     <td>52.5</td>
+    <td><a href="https://pan.baidu.com/s/1-VeL_aRf8mYsCuOcr4qR6Q">ResNet101_GCP_D</td>
+    <td>fdhq</td>
+    <td><a href="https://drive.google.com/open?id=1BCGAFdtYU-XOmf79nmk3Q34J84zIzalG">ResNet101_GCP_D</td>
   </tr>
   <tr>
     <td>GCP<sub>M</sub></td>
@@ -411,6 +429,9 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/eva
     <td>23.9</td>
     <th>45.2</th>
     <th>52.9</th>
+    <td><a href="https://pan.baidu.com/s/1b6n_yg-R3HlOMFACLR-tqw">ResNet101_GCP_D</td>
+    <td>0fbl</td>
+    <td><a href="https://drive.google.com/open?id=1nAvaCu9Z4mA9ajSRfqok7cQ-G5VN1CbK">ResNet101_GCP_D</td>
   </tr>
 </table>
 
