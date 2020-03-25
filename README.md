@@ -143,7 +143,7 @@ We divide the parameters into three types `LRnorm`,`LRfast` and `LRadju`.
 
 The datesets and evaluation code can be downloaded from   [https://github.com/hendrycks/robustness](https://github.com/hendrycks/robustness)
 
-### Result on ImageNet-C and ImageNet-P 
+### Results on ImageNet-C and ImageNet-P 
 
 <table>
   <tr>
@@ -435,7 +435,7 @@ We use the [mmdetection](https://github.com/open-mmlab/mmdetection) to train/eva
   </tr>
 </table>
 
-### Instance Segmentation Result on COCO val2017
+### Instance Segmentation Results on COCO val2017
 
 #### Mask R-CNN
 
