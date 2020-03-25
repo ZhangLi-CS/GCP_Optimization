@@ -53,11 +53,11 @@ Recent works have demonstrated that global covariance pooling (GCP) has the abil
 
 ### Setting Parameters 
 
-##### LRnorm: The settings of lr in each original paper.
+LRnorm: The settings of lr in each original paper.
 
-##### LRfast: The settings of lr has the fastest convergence.
+LRfast: The settings of lr has the fastest convergence.
 
-##### LRadju: The settings of lr makes the best trade-off between convergence speed and classification accuracy.
+LRadju: The settings of lr makes the best trade-off between convergence speed and classification accuracy.
 
 ![LearningRate](https://github.com/ZhangLi-CS/GCP_Optimization/blob/master/LearningRate.png)
 
