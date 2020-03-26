@@ -163,10 +163,10 @@ The datesets and evaluation code can be downloaded from   [https://github.com/he
   </tr>
   <tr>
     <td align=left>MobileNetV2_GAP_LRnorm</td>
-    <td>87.1</td>
-    <td>114.9</td>
-    <td>79.8</td>
-    <td>96.5</td> 
+    <td>86.4</td>
+    <td>113.6</td>
+    <td>79.1</td>
+    <td>96.0</td> 
   </tr>
   <tr>
     <td align=left>MobileNetV2_GCP_LRnorm</td>
