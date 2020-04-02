@@ -1,7 +1,7 @@
 #!/bin/sh
 now=$(date +"%Y%m%d_%H%M%S")
 
-jobname=MobileNetV2_GCP_LRnorm_LandScape_0.045_1.5
+jobname=MobileNetV2_GAP_LRnorm_LandScape_0.045_1.5
 
 log_dir=logs/${jobname}
 if [ ! -d $log_dir ]; then
